@@ -1,50 +1,55 @@
-# Welcome to your Expo app 👋
+# Movie Ticket App 🎬
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A premium React Native mobile application built with Expo and Firebase for booking movie tickets.
 
-## Get started
+## Features ✨
 
-1. Install dependencies
+- **User Authentication**: Secure login and management using Firebase Auth.
+- **Movie Discovery**: Browse a curated list of "Now Showing" movies with high-quality posters.
+- **Detailed Information**: View movie synopses and showtimes.
+- **Easy Booking**: Seamless ticket booking process with instant confirmation.
+- **Ticket Management**: Keep track of all your booked tickets in a dedicated "My Tickets" section.
+- **Smart Notifications**: Local notifications to remind you of upcoming showtimes.
 
+## Screenshots 📸
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
+  <img src="screenshots/home_movies.jpg" width="200" alt="Home Screen">
+  <img src="screenshots/movie_details.jpg" width="200" alt="Movie Details">
+  <img src="screenshots/home_booked.jpg" width="200" alt="Booking Confirmation">
+  <img src="screenshots/my_tickets.jpg" width="200" alt="My Tickets">
+</div>
+
+## Technology Stack 🛠️
+
+- **Framework**: [Expo](https://expo.dev/) (React Native)
+- **Backend**: [Firebase](https://firebase.google.com/) (Firestore & Auth)
+- **Routing**: [Expo Router](https://docs.expo.dev/router/introduction/)
+- **Icons**: [@expo/vector-icons](https://icons.expo.fyi/)
+- **Animations**: [React Native Reanimated](https://docs.swmansion.com/react-native-reanimated/)
+
+## Getting Started 🚀
+
+1. **Install dependencies**:
    ```bash
    npm install
    ```
 
-2. Start the app
+2. **Setup Firebase**:
+   Configure your environment variables in a `.env` file:
+   ```env
+   EXPO_PUBLIC_FIREBASE_API_KEY=your_api_key
+   EXPO_PUBLIC_FIREBASE_AUTH_DOMAIN=your_auth_domain
+   EXPO_PUBLIC_FIREBASE_PROJECT_ID=your_project_id
+   EXPO_PUBLIC_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+   EXPO_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+   EXPO_PUBLIC_FIREBASE_APP_ID=your_app_id
+   ```
 
+3. **Start the app**:
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+Built with ❤️ for Mobile PTIT
